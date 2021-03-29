@@ -13,7 +13,7 @@
  * @author Zeshan
  */
 
-namespace \Vizrex\LaratrustIngest;
+namespace Vizrex\LaratrustIngest;
 
 use \Vizrex\Laraviz\BaseServiceProvider;
 
