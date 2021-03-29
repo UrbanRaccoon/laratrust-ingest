@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vizrex\\LaratrustIngest\\Providers\\LaratrustIngestProvider"
+                "Vizrex\\LaratrustIngest\\LaratrustIngestProvider"
             ]
         }
     },
