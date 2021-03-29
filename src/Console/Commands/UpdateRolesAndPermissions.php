@@ -54,7 +54,7 @@ class UpdateRolesAndPermissions extends BaseCommand
 
     protected function setNamespace()
     {
-        $this->namespace = \Vizrex\LaratrustIngest\LaratrustIngestProvider::getNamespace();
+        $this->namespace = Vizrex\LaratrustIngest\LaratrustIngestProvider::getNamespace();
     }
 
 }
