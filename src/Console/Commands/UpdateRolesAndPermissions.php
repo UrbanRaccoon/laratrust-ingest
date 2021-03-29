@@ -11,6 +11,7 @@ namespace Vizrex\LaratrustIngest\Console\Commands;
 
 use Vizrex\Laraviz\Console\Commands\BaseCommand;
 use Vizrex\LaratrustIngest\Utilities\Importer;
+use Vizrex\LaratrustIngest\LaratrustIngestProvider;
 
 class UpdateRolesAndPermissions extends BaseCommand
 {
@@ -53,7 +54,7 @@ class UpdateRolesAndPermissions extends BaseCommand
 
     protected function setNamespace()
     {
-        $this->namespace = \Vizrex\LaratrustIngest\LaratrustIngestProvider::getNamespace();
+        $this->namespace = Vizrex\LaratrustIngest\LaratrustIngestProvider::getNamespace();
     }
 
 }
