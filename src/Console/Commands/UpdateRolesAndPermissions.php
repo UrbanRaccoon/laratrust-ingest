@@ -9,8 +9,9 @@
 
 namespace Vizrex\LaratrustIngest\Console\Commands;
 
-use Vizrex\Laraviz\Console\Commands\BaseCommand;
-use Vizrex\LaratrustIngest\Utilities\Importer;
+use \Vizrex\Laraviz\Console\Commands\BaseCommand;
+use \Vizrex\LaratrustIngest\Utilities\Importer;
+use \Vizrex\LaratrustIngest\LaratrustIngestProvider;
 
 class UpdateRolesAndPermissions extends BaseCommand
 {
