@@ -13,9 +13,9 @@
  * @author Zeshan
  */
 
-namespace Vizrex\LaratrustIngest;
+namespace \Vizrex\LaratrustIngest;
 
-use Vizrex\Laraviz\Providers\BaseServiceProvider;
+use Vizrex\Laraviz\BaseServiceProvider;
 
 class LaratrustIngestProvider extends BaseServiceProvider
 {
