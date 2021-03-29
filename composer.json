@@ -16,13 +16,13 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Vizrex\\LaratrustIngest\\": "src/"
+            "Vizrex\\LaratrustIngest\\": ["src/", "src/Providers"]
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vizrex\\LaratrustIngest\\Providers\\LaratrustIngestProvider"
+                "Vizrex\\LaratrustIngest\\LaratrustIngestProvider"
             ]
         }
     },
