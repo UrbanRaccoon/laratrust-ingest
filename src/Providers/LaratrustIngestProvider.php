@@ -24,6 +24,6 @@ class LaratrustIngestProvider extends BaseServiceProvider
     public function boot()
     {
         // Commands
-        $this->commands(['\Vizrex\LaratrustIngest\Console\Commands\UpdateRolesAndPermissions']);
+        $this->commands(['Vizrex\LaratrustIngest\Console\Commands\UpdateRolesAndPermissions']);
     }
 }
