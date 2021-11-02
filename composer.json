@@ -16,7 +16,7 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Vizrex\\LaratrustIngest\\": "src/Providers"
+            "Vizrex\\LaratrustIngest\\": ["src","src/Providers"]
         }
     },
     "extra": {
