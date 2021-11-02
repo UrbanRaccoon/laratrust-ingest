@@ -1,5 +1,5 @@
 {
-    "name": "vizrex/laratrust-ingest",
+    "name": "urbanraccoon/laratrust-ingest",
     "description": "Utility package to ingest roles and permissions easily using command line.",
     "type": "laravel-package",
     "license": "proprietary",
@@ -9,9 +9,9 @@
     }],
     "require": {
         "php": ">=7.2.0",
-        "santigarcor/laratrust": "5.*",
-        "illuminate/support": "~5.1|^6.0",
-        "vizrex/laraviz": "dev-dev-urban"
+        "santigarcor/laratrust": "^5.0",
+        "illuminate/support": "^8.0",
+        "urbanraccoon/laraviz": "dev-dev-urban"
     },
     "require-dev": {},
     "autoload": {
